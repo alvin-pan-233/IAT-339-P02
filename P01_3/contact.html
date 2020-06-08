@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+1. Follow some design from the sample styleGuide from our TA,
+"sfu.ca/~vzahedne/IAT339/P1-Style_Guide_Template/index.html#text_elements"
+2. Get imspired by the design of Vanilla, 
+"vanillaframework.io"
+3. Get imspired by the design of Mullerindustry,
+"templatemonsterpreview.com/demo/55511.html"
+-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Contact Us</title>
+
+	<!-- CSS  links -->
+	<link rel="stylesheet" href="css/normalize.css"> 		
+	<link rel="stylesheet" href="css/flexbox.css"> 
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a href="frontPage.html">SALES</a>
+			<a href="product.html">PRODUCTS</a>
+			<a href="service.html">SERVICES</a>
+			<a href="aboutUs.html">ABOUT US</a>
+			<a href="contact.html">CONTACTS</a>
+			<a href="citation.html">CITATION</a>
+		</nav>
+
+		<h1>Contact Us</h1>
+		<p>This is the page for the client to contact the company.</p>
+	</header>
+
+	<section>
+		<h2>Addresses</h2>
+		<p>This is the address of the company
+		<a href="https://www.google.ca/maps" target="_blank">Addresses XXXX</a>.
+		</p>
+		
+		<code>
+			<p class="codeExplanation">Intext links code sample &lta href="https://www.google.ca/maps" target="_blank"&gt		
+			</p>
+		</code>	
+
+	</section>
+
+	<section>
+		<h2>Telephones</h2>
+		<p>Telephone number for the company</p>
+	</section>
+
+	<section>
+		<h2>Contact Form</h2>
+		<P>Contact Us via Email</P>
+
+		<!-- the code for text box and button are studied from week 1 HTML tutorial -->
+		<form method="post" action="#">
+			<div>
+				<label for="form-name">Name:</label>
+				<input type="text" id="form-name" placeholder="Name *">
+				<code>
+					<p class="codeExplanation textBreak">Text input field code sample
+					&ltlabel for="form-name"&gtName:&lt&#47label&gt
+					</p>
+				</code>
+				<code>
+					<p class="codeExplanation">Submit button code sample
+					&ltinput type="text" id="form-name" placeholder="Name *"&gt				
+					</p>
+				</code>
+			</div>
+
+			<div>
+				<label for="form-email">Email:</label>
+				<input type="text" id="form-email" placeholder="Email *">
+			</div>
+
+			<div>
+				<label for="form-phone">Phone:</label>
+				<input type="text" id="form-phone" placeholder="Phone *">
+			</div>
+
+			<div>
+				<label for="form-comment">Comments:</label>
+				<input type="text" id="form-comment" placeholder="Comments *">
+			</div>
+
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+
+			<!-- Submit Button and Reset Button code are learned from W3school
+				"https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_reset"
+			-->
+			<code>
+				<p class="codeExplanation">Submit button code sample
+				&ltinput type="submit" value="Submit"&gt
+				</p>
+			</code>
+
+			<code>
+				<p class="codeExplanation">Reset button code sample
+				&ltinput type="reset" value="Reset"&gt		
+				</p>
+			</code>
+		</form>
+
+	</section>
+
+	<section>
+		<h3>framework</h3>
+		<img class="frameworkSize" src="img/framework5.jpg" alt="Framework design for the contact us page">
+	</section>
+
+	<section>
+		<h2>wireframe for smartphone</h2>
+		<img class="frameworkSize" src="img/wireframe5.png" alt="Framework design for the front page (Sales)">
+	</section>
+
+	<!-- this back to top button code is from w3c school -->
+	<!-- "https://www.w3schools.com/howto/howto_js_scroll_to_top.asp" -->
+	<section>
+		<button onclick="topFunction()" id="topButton" title="Go to top">Top</button>
+		<p>"a button create for later use with css, not functioning right now"</p>
+	</section>
+
+</body>	
+
+</html>

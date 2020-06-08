@@ -1,0 +1,127 @@
+/* 
+
+Code studied from the IAT 339 Flexbox Tutorial
+"https://www.youtube.com/watch?v=Xff_eGOU_Ls&feature=youtu.be"
+
+*/
+
+*, *::after, *::before{
+	box-sizing: border-box;
+}
+html{
+	margin:0,10%;
+}
+h1,h2,h3,h4{
+	text-align: center;
+}
+
+code, samp{
+	display:block;
+	background-color: gray;
+	padding:0.1rem;
+}
+
+/* flexbox layout code studied from Flexbox Tutorial by LearnWebCode
+	"https://www.youtube.com/watch?v=k32voqQhODc"
+*/
+.main-layout{
+	max-width: 100%;
+	background-color: #FFF;
+	margin: 40px auto 0 auto;
+	line-height: 1.65;
+	padding:20px 50px;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: wrap column;
+}
+.main-layout-p{
+	flex:1;
+}
+
+/* -------------------------------------- */
+/* flexbox code for front(sale) page */
+.div-header{
+	flex:1;
+	padding:20px 50px;
+
+}
+.div-font{
+	flex:1;
+	padding:20px 50px;
+
+}
+.div-color{
+	flex:1;
+	padding:20px 50px;
+}
+.div-icon{
+	flex:1;
+	padding:20px 50px;
+}
+/* -------------------------------------- */
+/* flexbox code for Product page */
+.section-layout{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+}
+.section-one{
+	flex:1 1 25rem;
+	margin: auto 50px 20px 50px;
+	padding:20px 50px;
+}
+.section-two{
+	flex:1 1 25rem;
+	padding:20px 50px;
+	margin: auto 50px 20px 50px;
+}
+.section-three{
+	flex:1 1 25rem;
+	padding:20px 50px;
+	margin: auto 50px 20px 50px;
+}
+.section-four{
+	flex:1 1 25rem;
+	padding:20px 50px;
+	margin: auto 50px 20px 50px;
+}
+.section-five{
+	flex:1 1 25rem;
+	padding:20px 50px;
+	margin: auto 50px 20px 50px;
+}
+.section-six{
+	flex:1 1 25rem;
+	padding:20px 50px;
+	margin: auto 50px 20px 50px;
+}
+/* -------------------------------------- */
+.codeExplanation{
+	text-align:center;
+	margin: 20px auto 20px auto;
+}
+
+.frameworkSize{
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	width:80%;
+	height:40%
+}
+.product button:hover{
+	opacity:0.7;
+}
+
+/* -------------------------------------- */
+@media(max-width: 30em){
+	.container-box{
+	width:100%;	
+	}
+}
+@media(min-width: 30em){
+	.container-box{
+	width:20%;	
+	}
+}
+
