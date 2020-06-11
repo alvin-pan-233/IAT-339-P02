@@ -46,21 +46,21 @@ pre{
 }
 .home_nav_container{
 	background-color: #EAE7DC;
-	width:80%;
+	left:50%;
 	display:inline-block;
 	position: absolute;
 	transform: translateX(-50%);
 }
 .home_nav_container ul{
 	margin:0;
-	padding:0 0.8rem;
+	padding:0 60px;
 	list-style-type: none;
 	position: relative;
 	display: flex;
 	flex:1 1 auto;
 }
 .home_nav_container ul li:not(last-child){
-	margin-right: 1rem;
+	margin-right: 100px;
 }
 .home_nav_container ul li{
 	padding:10px;
