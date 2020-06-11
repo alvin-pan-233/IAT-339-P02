@@ -1,0 +1,80 @@
+/* 
+
+Code studied from the IAT 339 Flexbox Tutorial
+"https://www.youtube.com/watch?v=Xff_eGOU_Ls&feature=youtu.be"
+
+*/
+
+*, *::after, *::before{
+	box-sizing: border-box;
+}
+html{
+	margin:0 10%;
+}
+pre{
+	tab-size:2;
+	white-space: pre-wrap;
+}
+.div_coantainer_color{
+	background-color: rgb(219, 222, 191);
+}
+.heading_layout{
+	padding-bottom: 0.5rem;
+	border-bottom: 0.5px solid black;
+	color:#orange;
+}
+.div_main{
+	margin:0 2rem 0 2rem;
+	padding-bottom: 1rem;
+	border-bottom: 0.5px solid black);
+}
+.div_heading{
+	color:orange;
+}
+.div_preview{
+	margin:1rem 1rem 1rem 1rem;
+}
+.div_container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+
+	display:block;
+
+	flex:1 1 15rem;
+}
+.code_sample{
+	tab-size:2;
+}
+.list_style{
+	list-style: none;
+}
+.swatch-block{
+	flex:1 1 15rem;
+}
+.list-swatch{
+	padding:0 0;
+	border:1px solid black;
+	margin:1rem;
+}
+.swatch_preview{
+	height:3rem;
+	max-width: 100%;
+}
+.swatch_detail{
+	list-style: none;
+	font-size: 1rem;
+	padding: 0 0 0 0.5rem;
+}
+.button_preview{
+	margin:2rem 0;
+}
+.button_styling{
+	color:black;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+.field_preview{
+	margin:2rem 0;
+}

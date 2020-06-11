@@ -8,56 +8,78 @@ Code studied from the IAT 339 Flexbox Tutorial
 *, *::after, *::before{
 	box-sizing: border-box;
 }
-html{
-	margin:0,10%;
+button{
+	font:inherit;
+	margin:0;
 }
-h1,h2,h3,h4{
-	text-align: center;
+.font_type1{
+	font-family: 'Noto Serif', 'Open Sans', 'sans-serif';
+	font-size: 1.2rem;
 }
-
-code, samp{
-	display:block;
-	background-color: gray;
-	padding:0.1rem;
+.font_type2{
+	font-family: 'Raleway', 'Open Sans', 'sans-serif';
+	font-size: 1rem;
 }
-
+.font_type3{
+	font-family: 'Source Sans Pro', 'Open Sans', 'sans-serif';
+	font-size: 1rem;
+}
+.swatch_color1{
+	background-color: rgb(234, 231, 220);
+}
+.swatch_color2{
+	background-color: rgb(216, 195, 165);
+}
+.swatch_color3{
+	background-color: rgb(142, 141, 138);
+}
+.swatch_color4{
+	background-color: rgb(233, 128, 116);
+}
+.swatch_color5{
+	background-color: rgb(232, 90, 79);
+}
+.icon_styling{
+	 width:50px;
+	 height:50px;
+}
+.image_styling{
+	width:100%;	
+	height: auto;
+}
 /* flexbox layout code studied from Flexbox Tutorial by LearnWebCode
 	"https://www.youtube.com/watch?v=k32voqQhODc"
 */
-.main-layout{
+.center-text{
+	text-align: center;;
+}
+.sidebar-layout{
 	max-width: 100%;
 	background-color: #FFF;
-	margin: 40px auto 0 auto;
+	margin: 0 auto 0 auto;
 	line-height: 1.65;
-	padding:20px 50px;
-
+	padding:0px 50px;
 	display: flex;
-	flex-wrap: wrap;
-	flex-flow: wrap column;
-}
-.main-layout-p{
-	flex:1;
-}
-
-/* -------------------------------------- */
-/* flexbox code for front(sale) page */
-.div-header{
-	flex:1;
-	padding:20px 50px;
+	justify-content: space-between;
 
 }
-.div-font{
-	flex:1;
-	padding:20px 50px;
-
+.add_to_cart_button{
+	background-color: white;
+	font-weight: 400;
+	text-align: center;
+	padding:1rem 0;
+	width:50%;
+	border:0.5px solid orange;
 }
-.div-color{
-	flex:1;
-	padding:20px 50px;
+.submit_button{
+	text-rendering: auto;
+	letter-spacing: normal;
+	text-align: center;
 }
-.div-icon{
-	flex:1;
-	padding:20px 50px;
+.reset_button{
+	text-rendering: auto;
+	letter-spacing: normal;
+	text-align: center;
 }
 /* -------------------------------------- */
 /* flexbox code for Product page */

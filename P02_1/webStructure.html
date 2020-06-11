@@ -17,55 +17,48 @@
 	<!-- CSS  links -->
 	<link rel="stylesheet" href="css/normalize.css"> 		
 	<link rel="stylesheet" href="css/flexbox.css"> 
+	<link rel="stylesheet" href="css/layout.css"> 
 </head>
 
 <body>
 	<header>
 		<nav>
 			<a href="index.html">Home</a>
-			<a href="menu.html">Menu</a>
-			<a href="storeInfo.html">StoreInfo</a>
-			<a href="aboutUs.html">About Us</a>
-			<a href="contact.html">Contact Us</a>
 			<a href="webStructure.html">WireFrame</a>
 			<a href="citation.html">Citation</a>
 		</nav>
-
-		<div>
-			<div>
-				<h2>Main Webpage Structure</h2>
-
-				<section>
-					<img class="frameworkSize" src="img/framework1.jpg" alt="Framework design for the front page (Sales)">
-				</section>
-
-				<section>
-					<img class="frameworkSize" src="img/framework2.png" alt="Framework design for the product page">
-				</section>
-
-				<section>
-					<img class="frameworkSize" src="img/framework4.jpg" alt="Framework design for the company information page">
-				</section>
-			</div>   <!-- End of the fisrt div for web framework -->
-
-			<div>
-				<h2>Main Smartphone Structure</h2>
-
-				<section>
-					<img class="frameworkSize" src="img/wireframe1.png" alt="wireframe design for the front page (Sales)">
-				</section>
-
-				<section>
-					<img class="frameworkSize" src="img/wireframe4.png" alt="Framework design for the front page (Sales)">
-				</section>
-
-				<section>
-					<img class="frameworkSize" src="img/wireframe2.png" alt="Framework design for the front page (Sales)">
-				</section>
-
-			</div>   <!-- End of the second div for smartphone farmework -->
-		</div>	
 	</header>
+
+	<section id="wireframes">
+		<h2 class="heading_layout">Wireframes</h2>
+
+		<div class="div_main">
+			<h3 class="div_heading">Main wireflow</h3>
+
+			<div class="div_preview">
+				<img class="image_styling" src="img/mainPage.png" alt="The main workflow for the web in PC device">
+				<img class="image_styling" src="img/phone_allPage.png" alt="The main workflow for the web in smartphone device">
+			</div>
+		</div>  <!-- End of main workflow div-->
+
+		<div class="div_main">
+			<h3 class="div_heading">All Sub-Pages For Each Device</h3>
+
+			<div class="div_preview">
+				<img class="image_styling" src="img/allPage.png" alt="All the pages shown in PC device">
+				<img class="image_styling" src="img/phone_allPage.png" alt="All the pages shown in smartphone device">
+			</div>
+		</div>  <!-- End of all the sub-pages div-->
+
+		<div class="div_main">
+			<h3 class="div_heading">Product Purchase Workflow</h3>
+
+			<div class="div_preview">
+				<img class="image_styling" src="img/productPage.png" alt="The main workflow for the web in PC device">
+				<img class="image_styling" src="img/phone_productPage.png" alt="The main workflow for the web in smartphone device">
+			</div>
+		</div>  <!-- End of product purchase workflow div-->
+	</section>
 </body>
 
 </html>
