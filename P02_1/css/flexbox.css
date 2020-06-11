@@ -47,6 +47,14 @@ button{
 	width:100%;	
 	height: auto;
 }
+.image_sample_styling{
+	max-width: 250px;
+	height: auto;
+}
+.logo_styling{
+	max-width:10rem;
+	flex:1 1 auto;
+}
 /* flexbox layout code studied from Flexbox Tutorial by LearnWebCode
 	"https://www.youtube.com/watch?v=k32voqQhODc"
 */
