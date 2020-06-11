@@ -39,8 +39,6 @@ pre{
 	flex-wrap:wrap;
 	justify-content:space-around;
 
-	display:block;
-
 	flex:1 1 15rem;
 }
 .code_sample{
@@ -77,4 +75,14 @@ pre{
 }
 .field_preview{
 	margin:2rem 0;
+}
+.grid_layout{
+	flex:0 0 auto;
+}
+.grid_preview{
+	height:10rem;
+	background-color: rgb(234, 231, 220);
+	border: 1px solid black;
+	min-width: 15rem;
+	margin-bottom: 2rem;
 }
