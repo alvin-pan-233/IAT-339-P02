@@ -50,6 +50,7 @@ pre{
 	display:inline-block;
 	position: absolute;
 	transform: translateX(-50%);
+	border-radius: 50px;
 }
 .home_nav_container ul{
 	margin:0;
@@ -66,6 +67,7 @@ pre{
 	padding:10px;
 	border: 1px solid transparent;
 	transition:background 0.2s;
+	border-radius: 5px;
 }
 ..home_nav_container ul li a{
 	color:#fff;
@@ -76,8 +78,9 @@ pre{
 .home_nav_container ul li ul{
 	background-color: #EAE7DC;
 	position: absolute;
+	border-radius: 5px;
 	display: block;
-	margin:12px - 12px;
+	margin:12px -12px;
 	padding:0;
 	visibility: hidden;
 	opacity: 0;
