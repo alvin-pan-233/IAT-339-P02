@@ -122,6 +122,40 @@ div{
 	margin-left: 2rem;
 	flex:1;
 }
+.main_container_contact{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+.main_container_contact img{
+	float:left;
+	padding-right: 2rem;
+}
+.main_container_contact p{
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+.main_box_contact{
+	flex:1;
+}
+.main_icon{
+	cursor:pointer;
+}
+.form_container{
+	text-align: center;
+	margin:0 20%;
+}
+.form_row{
+	padding-bottom: 2rem;
+	display:flex;
+	min-height: 5rem;
+}
+.form_row label{
+	
+}
+.form_row input{
+	flex:1;
+}
 .home_nav_background{
 	background-color: gray;
 }
