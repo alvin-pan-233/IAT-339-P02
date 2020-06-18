@@ -96,6 +96,10 @@ div{
 	padding-top: 4rem;
 	padding-left: 8rem;
 }
+.main_store_box{
+	width:33%;
+	height:auto;
+}
 .home_nav_background{
 	background-color: gray;
 }
@@ -286,12 +290,17 @@ Code studied from the IAT 339 Flexbox Tutorial
 /* flexbox layout code studied from Flexbox Tutorial by LearnWebCode
 	"https://www.youtube.com/watch?v=k32voqQhODc"
 */
-.center-text{
+.center_text{
 	text-align: center;
 	font-size:0.8rem;
 }
 .style_text{
 	text-decoration: underline;
+	padding-top: 0.1rem;
+}
+.style_text_store{
+	text-decoration: underline;
+	margin-top: 2rem;
 	padding-top: 0.1rem;
 }
 .sidebar-layout{
