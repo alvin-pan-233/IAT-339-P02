@@ -8,7 +8,7 @@ Code studied from the IAT 339 Flexbox Tutorial
 *, *::after, *::before{
 	box-sizing: border-box;
 }
-html{
+body{
 	margin:0 10%;
 }
 pre{
@@ -78,10 +78,15 @@ div{
 	max-width: 1400px;
 	margin:40px auto 0 auto;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
 	align-items: flex-start;
 }
 .main_box{
 	flex: 1;
+}
+.main_manu_box{
+	width:25%;
 }
 .main_box_img1{
 	padding-top: 4rem;
@@ -254,7 +259,7 @@ Code studied from the IAT 339 Flexbox Tutorial
 	height: auto;
 }
 .logo_styling{
-	max-width:10rem;
+	max-width:5rem;
 	flex:1 1 auto;
 	display: block;
 	margin-left: auto;

@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- 
-1. Follow some design from the sample styleGuide from our TA,
-"sfu.ca/~vzahedne/IAT339/P1-Style_Guide_Template/index.html#text_elements"
-2. Get imspired by the design of Vanilla, 
-"vanillaframework.io"
-3. Get imspired by the design of Mullerindustry,
-"templatemonsterpreview.com/demo/55511.html"
--->
-
 <head>
 	<meta charset="utf-8">
 	<title>Menu</title>
@@ -17,148 +8,200 @@
 	<!-- CSS  links -->
 	<link rel="stylesheet" href="css/normalize.css"> 		
 	<link rel="stylesheet" href="css/layout.css"> 
-	<link rel="stylesheet" href="css/layout.css"> 
 
 	<!-- Google Font links -->
 	<link href='https://fonts.googleapis.com/css?family=Noto Serif' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
-
 </head>
 
 <body>
 	<header>
-		<nav>
-			<a href="frontPage.html">Home</a>
-			<a href="menu.html">Menu</a>
-			<a href="storeInfo.html">StoreInfo</a>
-			<a href="aboutUs.html">About US</a>
-			<a href="contact.html">Contact US</a>
-			<a href="index.html">StyleGuide</a>
-		</nav>
-
-		<h1>Manu Page</h1>
-		<p>This is the page of the manu list.</p>
+		<div class="topNav">
+			<nav>
+				<a href="frontPage.html">Home</a>
+				<a href="menu.html">Menu</a>
+				<a href="storeInfo.html">StoreInfo</a>
+				<a href="aboutUs.html">About US</a>
+				<a href="contact.html">Contact US</a>
+				<a href="index.html">StyleGuide</a>
+			</nav>  <!-- nav for the tag links -->
+		</div>
 	</header>
 
-	<section>
-		<h2>Product Type</h2>
-		<ol>
-			<li>XXX</li>
-			<li>XXX</li>
-			<li>XXX</li>
-			<li>XXX</li>
-		</ol>
-
-		<code>
-			<p class="codeExplanation">numbered lists code sample &ltol&gt
-			&ltli&gtXXXXXX&lt&#47li&gt
-			&ltli&gtXXXXXX&lt&#47li&gt
-			&lt&#47ol&gt
-			</p>
-		</code>
+	<section>  <!-- section for the logo and its background bar -->
+		<nav class="logo_bar">  <!-- Put the brand image here -->
+			<img class="logo_styling frameworkSize" src="img/bubbleorzo logo.png" src="" alt="Brand design / Logo">
+		</nav>
 	</section>
 
 	<section>
-		<h2>Products: </h2>
-		<section class="section-layout">
-			<section class="product section-one">
-				<p>Product1</p>
-				<img src="img/product1.jpg" alt="product image #1">
-				<p>There is no actual images for the product</p>
-				<p>Product Name</p>
-				<p>Price#</p>
-				<p><button>Add to Cart</button></p>
 
-				<!-- Add to Cart Button learned from W3school
-					"https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_product_card"
-				-->
-				<code>
-					<p class="codeExplanation">Add to Cart Button code sample 
-					&ltp&gt&ltbutton&gtAdd to Cart&lt&#47button&gt&ltp&gt
-					</p>
-				</code>
-			</section>
-
-			<section class="product section-two">
-				<p>Product1</p>
-				<img src="img/product1.jpg" alt="product image #1">
-				<p>There is no actual images for the product</p>
-				<p>Product Name</p>
-				<p>Price#</p>
-				<p><button>Add to Cart</button></p>
-			</section>
-
-			<section class="product section-three">
-				<p>Product1</p>
-				<img src="img/product1.jpg" alt="product image #1">
-				<p>There is no actual images for the product</p>
-				<p>Product Name</p>
-				<p>Price#</p>
-				<p><button>Add to Cart</button></p>
-			</section>
-
-			<section class="product section-four">
-				<p>Product1</p>
-				<img src="img/product1.jpg" alt="product image #1">
-				<p>There is no actual images for the product</p>
-				<p>Product Name</p>
-				<p>Price#</p>
-				<p><button>Add to Cart</button></p>
-			</section>
-
-			<section class="product section-five">
-				<p>Product1</p>
-				<img src="img/product1.jpg" alt="product image #1">
-				<p>There is no actual images for the product</p>
-				<p>Product Name</p>
-				<p>Price#</p>
-				<p><button>Add to Cart</button></p>
-			</section>
-
-			<section class="product section-six">
-				<p>Product1</p>
-				<img src="img/product1.jpg" alt="product image #1">
-				<p>There is no actual images for the product</p>
-				<p>Product Name</p>
-				<p>Price#</p>
-				<p><button>Add to Cart</button></p>
-			</section>
-
-		</section>
-	</section>   <!-- end of the product list section -->
-
-	<section>
-		<h3>Sample code for the flexbox grid of the product list</h3>
-		<h4 style="color:red">Flexbox grid sample output can see this current Product page</h4>
-			<code>
-				<div class="codeExplanation">
-					<p>put a container class called <strong>"section-layout"</strong> in the parent section tag, add <strong>"section-one"</strong>calss to the child section tag.
-					<div>Under "section-layout" class,
-					.section-layout{
-					display: flex;
-					flex-wrap: wrap;
-					background-color: white;}
-					</div>
-					<div>Under "section-one" class, 
-					.section-one{
-					flex:1 1 25rem;
-					margin: auto 50px 20px 50px;
-					padding:20px 50px;
-					background-color:#D8C3A5;}
-					</div>
-					</p>
-				</div>
-			</code>
 	</section>
 
-	<section>
-		<h2>Payment Method</h2>
+	<section class="center-text style_text">
+		<h2>Hot Sales</h2>
 	</section>
 
-	<section>
-		<h2>Checkout Cart</h2>
+	<section class="main_container">
+		<div class="main_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+
+			<!-- Add to Cart Button learned from W3school
+				"https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_product_card"
+			-->
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+	</section>   <!-- end of the hot sales section -->
+
+	<section class="center-text style_text">
+		<h2>Recommended For You</h2>
 	</section>
+
+	<section class="main_container">
+		<div class="main_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+
+			<!-- Add to Cart Button learned from W3school
+				"https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_product_card"
+			-->
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+
+		<div class="main_manu_box">
+			<p>Product1</p>
+			<img src="img/product1.jpg" alt="product image #1">
+			<p>There is no actual images for the product</p>
+			<p>Product Name</p>
+			<p>Price#</p>
+			<p><button>Add to Cart</button></p>
+		</div>
+	</section>   <!-- end of the recommentdation section -->
 
 	<!-- this back to top button code is from w3c school -->
 	<!-- "https://www.w3schools.com/howto/howto_js_scroll_to_top.asp" -->
@@ -167,6 +210,11 @@
 		<p>"a button create for later use with css, not functioning right now"</p>
 	</section>
 
+	<section> 
+		<div class="bottomNav">
+			<p>@2020 Copyright</p>
+		</div>
+	</section>
 </body>	
 
 </html>
