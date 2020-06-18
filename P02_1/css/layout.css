@@ -27,6 +27,19 @@ header::after{
 div{
 	display: block;
 }
+.map_responsive{
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+.map_responsive iframe{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width:100%;
+	position: absolute;
+}
 .topNav{
 	background-color: white;
 	overflow:hidden;
@@ -99,6 +112,15 @@ div{
 .main_store_box{
 	width:33%;
 	height:auto;
+}
+.main_box_aboutUs1{
+	flex:3;
+	margin-right: 2rem;
+}
+.main_box_aboutUs2{
+	margin-top: 4rem;
+	margin-left: 2rem;
+	flex:1;
 }
 .home_nav_background{
 	background-color: gray;
@@ -284,8 +306,6 @@ Code studied from the IAT 339 Flexbox Tutorial
 
 	top:40%;
 	left:10%;
-
-
 }
 /* flexbox layout code studied from Flexbox Tutorial by LearnWebCode
 	"https://www.youtube.com/watch?v=k32voqQhODc"
