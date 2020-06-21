@@ -141,6 +141,8 @@ div{
 .main_icon{
 	cursor:pointer;
 }
+
+/* Codes for the text box style 1 */
 .form_container{
 	text-align: center;
 	margin:0 20%;
@@ -159,6 +161,23 @@ div{
 .form_input{
 	height:20rem;
 }
+
+/* Codes for the text box sample 2 */
+
+.exampletag{
+	margin-left: 40px;
+	font-family: 'Noto Serif', sans-serif,Serif !important;
+	display: block;
+	text-align: -webkit-match-parent;
+	list-style-type: circle;
+}
+#contactpage{
+	overflow: hidden;
+	display: table;
+	list-style-type: circle;
+}
+
+
 .home_nav_background{
 	background-color: gray;
 }
