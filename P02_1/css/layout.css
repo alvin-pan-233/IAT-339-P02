@@ -127,13 +127,8 @@ div{
 	flex-wrap: wrap;
 	justify-content: space-between;	
 }
-.main_container_contact img{
-	float:left;
-	padding-right: 2rem;
-}
 .main_container_contact p{
 	margin-top: 1rem;
-	margin-left: 1rem;
 }
 .main_box_contact{
 	flex:1;
