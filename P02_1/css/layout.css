@@ -171,6 +171,9 @@ div{
 	display: table;
 	/*list-style-type: circle;*/
 }
+#contactpage p{
+  display: table-row;
+}
 #contactpage label {
     display: table-cell;
     margin-top:12px;
@@ -179,7 +182,6 @@ div{
     font-weight: normal;
     line-height: 1.2;
     }
-
 #contactpage input ,
 #contactpage textarea{
     margin-left: 20px;
@@ -190,7 +192,6 @@ div{
     padding: 6px;
     width: 70%;
 }
-
 #contactpage textarea {
   vertical-align: top;
 }
