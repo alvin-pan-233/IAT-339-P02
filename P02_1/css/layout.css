@@ -185,6 +185,7 @@ div{
 #contactpage input ,
 #contactpage textarea{
     margin-left: 20px;
+    margin-top: 20px;
     border: 1px solid #DDDDDD;
     background: #F9F9F9;
     font-size: 1.1em;
@@ -193,7 +194,7 @@ div{
     width: 70%;
 }
 #contactpage textarea {
-  vertical-align: top;
+  display: blobk;
 }
 
 .home_nav_background{
