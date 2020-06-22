@@ -169,7 +169,7 @@ div{
 #contactpage{
 	overflow: hidden;
 	display: table;
-	list-style-type: circle;
+	/*list-style-type: circle;*/
 }
 #contactpage label {
     display: table-cell;
@@ -188,7 +188,7 @@ div{
     font-size: 1.1em;
     line-height: 1.4;
     padding: 6px;
-    width: 80%;
+    width: 70%;
 }
 
 #contactpage textarea {
