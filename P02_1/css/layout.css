@@ -171,7 +171,29 @@ div{
 	display: table;
 	list-style-type: circle;
 }
+#contactpage label {
+    display: table-cell;
+    margin-top:12px;
+    font-size: 1.15em;
+    color: #333333;
+    font-weight: normal;
+    line-height: 1.2;
+    }
 
+#contactpage input ,
+#contactpage textarea{
+    margin-left: 20px;
+    border: 1px solid #DDDDDD;
+    background: #F9F9F9;
+    font-size: 1.1em;
+    line-height: 1.4;
+    padding: 6px;
+    width: 80%;
+}
+
+#contactpage textarea {
+  vertical-align: top;
+}
 
 .home_nav_background{
 	background-color: gray;
