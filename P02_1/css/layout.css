@@ -13,7 +13,9 @@ fieldset, label {
 
 *, *::after, *::before{
 	box-sizing: border-box;
-	background: #ffffe6;
+}
+body{
+    background-color: #ffffe6;
 }
 pre{
 	tab-size:2;
@@ -31,6 +33,7 @@ header::after{
 div{
 	display: block;
 }
+
 .body_Style{
     margin:0 10%;
 }
