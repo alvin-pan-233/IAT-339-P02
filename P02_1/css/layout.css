@@ -14,9 +14,6 @@ fieldset, label {
 *, *::after, *::before{
 	box-sizing: border-box;
 }
-body{
-	margin:0 10%;
-}
 pre{
 	tab-size:2;
 	white-space: pre-wrap;
@@ -32,6 +29,9 @@ header::after{
 }
 div{
 	display: block;
+}
+.body_Style{
+    margin:0 10%;
 }
 .map_responsive{
 	overflow: hidden;
