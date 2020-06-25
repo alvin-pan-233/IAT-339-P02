@@ -154,13 +154,24 @@
 		<!-- this back to top button code is from w3c school -->
 		<!-- "https://www.w3schools.com/howto/howto_js_scroll_to_top.asp" -->
 		<section>
-			<button onclick="topFunction()" id="topButton" title="Go to top">Top</button>
+			<button onclick="scrollToTop()" id="scroll-btn" title="Go to top">&#8679;</button>
 			<script>
-				var mybutton = document.getElementById("myBtn");
+				window.onscroll = function()
+				{
+				    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+				    {
+				    	document.getElementById("scroll-btn").style.display = "block";
+				    }
+				    else
+				    {
+				    	document.getElementById("scroll-btn").style.display = "none";
+				    }
+				};
 
-				function topFunction() {
-				  document.body.scrollTop = 0;
-				  document.documentElement.scrollTop = 0;
+				function scrollToTop()
+				{
+				    document.body.scrollTop = 0;
+				    document.documentElement.scrollTop = 0; 
 				}
 			</script>
 		</section>
