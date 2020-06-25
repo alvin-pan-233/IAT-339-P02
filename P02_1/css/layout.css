@@ -156,7 +156,20 @@ div{
 .main_icon{
 	cursor:pointer;
 }
-
+.review_container{
+    max-width: 1400px;
+    margin:40px auto 0 auto;
+    display: inline-block;
+    justify-content: space-between; 
+}
+.review_box{
+    flex: 1;
+}
+.review_box .customer_name{
+}
+.review_spacing{
+    margin-top: 5rem;
+}
 /* Codes for the text box style 1 */
 .form_container{
 	text-align: center;
@@ -620,7 +633,9 @@ Code studied from the IAT 339 Flexbox Tutorial
 	padding:20px 50px;
 	margin: auto 50px 20px 50px;
 }
-
+.checked{
+    color:orange;
+}
 
 /* --------------------------------------  */
 /* Star Rating CSS */
