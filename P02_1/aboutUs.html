@@ -77,7 +77,14 @@
 		<!-- "https://www.w3schools.com/howto/howto_js_scroll_to_top.asp" -->
 		<section>
 			<button onclick="topFunction()" id="topButton" title="Go to top">Top</button>
-			<p>"a button create for later use with css, not functioning right now"</p>
+			<script>
+				var mybutton = document.getElementById("myBtn");
+
+				function topFunction() {
+				  document.body.scrollTop = 0;
+				  document.documentElement.scrollTop = 0;
+				}
+			</script>
 		</section>
 
 	</section> <!-- End of The body sections -->
