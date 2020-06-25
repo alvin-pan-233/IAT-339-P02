@@ -118,7 +118,7 @@ div{
 }
 .main_manu_box{
     margin-bottom: 2rem;
-	width:auto;
+	width:23%;
     background-color: #FCD04B;
 }
 .main_box_img1{
@@ -156,7 +156,20 @@ div{
 .main_icon{
 	cursor:pointer;
 }
-
+.review_container{
+    max-width: 1400px;
+    margin:40px auto 0 auto;
+    display: inline-block;
+    justify-content: space-between; 
+}
+.review_box{
+    flex: 1;
+}
+.review_box .customer_name{
+}
+.review_spacing{
+    margin-top: 5rem;
+}
 /* Codes for the text box style 1 */
 .form_container{
 	text-align: center;
@@ -461,6 +474,8 @@ Code studied from the IAT 339 Flexbox Tutorial
 	letter-spacing: normal;
 	text-align: center;
 }
+
+
 /*Button studied from Typanus "https://tympanus.net/Development/CreativeButtons/"*/
 .btn {
 	border: none;
@@ -620,7 +635,9 @@ Code studied from the IAT 339 Flexbox Tutorial
 	padding:20px 50px;
 	margin: auto 50px 20px 50px;
 }
-
+.checked{
+    color:orange;
+}
 
 /* --------------------------------------  */
 /* Star Rating CSS */
@@ -672,6 +689,87 @@ Code studied from the IAT 339 Flexbox Tutorial
 }
 
 /* -------------------------------------- */
+/* -------------------------------------- */
+/* Code for the Check Out Page */
+
+.payment_style{
+    margin-top: 5rem;
+}
+.pay_row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.pay_col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.pay_col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.pay_col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.pay_col-25,
+.pay_col-50,
+.pay_col-75 {
+  padding: 0 16px;
+}
+.pay_col-25,a{
+    color:black;
+}
+.pay_container {
+  background-color: white;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.pay_input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.pay_label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.pay_icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+span.pay_price {
+  float: right;
+  color: black;
+}
+
+
+
+/* -------------------------------------- */
 .codeExplanation{
 	text-align:center;
 	margin: 20px auto 20px auto;
@@ -687,6 +785,7 @@ Code studied from the IAT 339 Flexbox Tutorial
 .product button:hover{
 	opacity:0.7;
 }
+<<<<<<< HEAD
 #scroll-btn{
 	background-color: #dbc065;
 	border: medium none;
@@ -704,6 +803,16 @@ Code studied from the IAT 339 Flexbox Tutorial
 	font-size: 2em;
 	opacity: 90%;
 }
+=======
+
+.topup_Button{
+    display: inline-flex;
+    z-index: 99;
+    padding-left: 95%;
+
+}
+
+>>>>>>> 48c69c93185c8580006756986bc536aab66200c8
 /* -------------------------------------- */
 @media(max-width: 30em){
 	.container-box{
