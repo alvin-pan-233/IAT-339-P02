@@ -57,7 +57,7 @@ div{
 	margin-top: 2rem;
 }
 .bottomNav{
-	background-color: #EAE7DC;
+	background-color: #F06060;
 	left:0;
 	bottom: 0;
 	width: 100%;
@@ -524,6 +524,12 @@ Code studied from the IAT 339 Flexbox Tutorial
 .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
 
 
+/*  Code for the review button */
+
+.review_container{
+    display:block;
+    white-space: pre-wrap;
+}
 
 /* -------------------------------------- */
 .codeExplanation{
