@@ -61,14 +61,15 @@
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 				<p>R:5.0 L:5.5</p>
 				<a href="product1.html"><p><button>Add to Cart</button></p></a>
+				<a href="checkout.html"><p><button>Check Out</button></p></a>
 			</div>
 		</section>
 
-		<section class="review_container">
+		<section>
 			<h3>Review This Product</h3>
 			<p>Share your thoughts with other customers</p>
 
-			<section>
+			<span>
 				<!-- Staring Rating Section -->
 				<section>
 					<fieldset class="rating">
@@ -84,7 +85,33 @@
 					    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
 					</fieldset>
 				</section> <!-- End of the Staring Rating Section -->
+			</span>
+
+			<section class="review_container">
+				<section>
+					<div class="exampletag">
+						<div id="contactpage">
+							<div>
+								<h5>Add a headline</h5>
+								<input type="text" id="Username" name="Username">
+							</div>
+
+							<div>
+								<h5>Write your review</h5>
+								<textarea type="text" id="Content" name="Content" maxlength="1000" cols="100" rows="8" spellcheck="false"></textarea>
+							</div>
+						</div>
+						<button class="sendbtn" onclick="SentPopup()"><span>Send </span>
+						</button>
+						<script>
+							function SentPopup() {
+				  				alert("The message is sent. Thank You!");
+							}
+						</script>
+					</div>
+				</section>
 			</section>
+
 		</section>
 
 	</section> <!-- End of The body sections -->

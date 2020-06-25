@@ -186,6 +186,9 @@ div{
 	text-align: -webkit-match-parent;
 	list-style-type: circle;
 }
+.exampletag,h5{
+    margin-top: 5px;
+}
 #contactpage{
 	overflow: hidden;
 	display: table;
@@ -664,6 +667,8 @@ Code studied from the IAT 339 Flexbox Tutorial
 /*  Code for the review button */
 
 .review_container{
+    display: table-row;
+    flex:wrap;
 }
 
 /* -------------------------------------- */
