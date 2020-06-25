@@ -702,6 +702,7 @@ Code studied from the IAT 339 Flexbox Tutorial
 	z-index: 99;
 	font-size: 20px;
 	font-size: 2em;
+	opacity: 90%;
 }
 /* -------------------------------------- */
 @media(max-width: 30em){
