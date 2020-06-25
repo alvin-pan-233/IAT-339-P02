@@ -67,6 +67,9 @@ div{
 	padding-top: 2rem;
     background-color: #F06060;
 }
+.topNav a{
+    padding-left: 2rem;
+}
 .bottomNav{
 	background-color: #F06060;
 	left:0;
