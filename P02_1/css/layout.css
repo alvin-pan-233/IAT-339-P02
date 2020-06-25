@@ -785,12 +785,12 @@ span.pay_price {
 .product button:hover{
 	opacity:0.7;
 }
-<<<<<<< HEAD
+
 #scroll-btn{
 	background-color: #dbc065;
 	border: medium none;
 	border-radius: 8px;
-	bottom: 20px;
+	bottom: 40px;
 	color: white;
 	cursor: pointer;
 	display: none;
@@ -803,14 +803,8 @@ span.pay_price {
 	font-size: 2em;
 	opacity: 90%;
 }
-=======
 
-.topup_Button{
-    display: inline-flex;
-    z-index: 99;
-    padding-left: 95%;
 
-}
 
 >>>>>>> 48c69c93185c8580006756986bc536aab66200c8
 /* -------------------------------------- */
