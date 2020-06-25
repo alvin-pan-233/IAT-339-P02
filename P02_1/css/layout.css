@@ -703,6 +703,13 @@ Code studied from the IAT 339 Flexbox Tutorial
 	opacity:0.7;
 }
 
+.topup_Button{
+    display: inline-flex;
+    z-index: 99;
+    padding-left: 95%;
+
+}
+
 /* -------------------------------------- */
 @media(max-width: 30em){
 	.container-box{
