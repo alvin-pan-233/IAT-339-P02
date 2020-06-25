@@ -85,6 +85,29 @@
 						</div>
 				</div>  
 		</section> <!-- End of second product section -->
+		
+		<section>
+			<button onclick="scrollToTop()" id="scroll-btn" title="Go to top">&#8679;</button>
+			<script>
+				window.onscroll = function()
+				{
+				    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+				    {
+				    	document.getElementById("scroll-btn").style.display = "block";
+				    }
+				    else
+				    {
+				    	document.getElementById("scroll-btn").style.display = "none";
+				    }
+				};
+
+				function scrollToTop()
+				{
+				    document.body.scrollTop = 0;
+				    document.documentElement.scrollTop = 0; 
+				}
+			</script>
+		</section>
 
 	</section> <!-- End of The body sections -->
 
