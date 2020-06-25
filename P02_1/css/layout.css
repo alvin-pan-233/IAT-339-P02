@@ -103,15 +103,16 @@ div{
 	margin:40px auto 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;	
-	align-items: flex-start;
+    justify-content: space-between; 
+
 }
 .main_box{
 	flex: 1;
 }
 .main_manu_box{
-	width:25%;
-    background-color: white;
+    margin-bottom: 2rem;
+	width:auto;
+    background-color: #FCD04B;
 }
 .main_box_img1{
 	padding-top: 4rem;
