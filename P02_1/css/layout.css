@@ -13,6 +13,7 @@ fieldset, label {
 
 *, *::after, *::before{
 	box-sizing: border-box;
+	background: #ffffe6;
 }
 pre{
 	tab-size:2;
@@ -193,7 +194,7 @@ div{
     margin-left: 20px;
     margin-top: 20px;
     border: 1px solid #DDDDDD;
-    background: #F9F9F9;
+    background: #fffff5;
     font-size: 1.1em;
     line-height: 1.4;
     padding: 6px;
@@ -443,6 +444,128 @@ Code studied from the IAT 339 Flexbox Tutorial
 	letter-spacing: normal;
 	text-align: center;
 }
+/*Button studied from Typanus "https://tympanus.net/Development/CreativeButtons/"*/
+.btn {
+	border: none;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 15px 60px;
+	display: inline-block;
+	margin: 10px 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn:before {
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-cart:before {
+	font-family: 'Font Awesome 5 Free';
+	content: "\f07a";
+    font-weight: 900;
+}
+.icon-search:before {
+	font-family: 'Font Awesome 5 Free';
+	content: "\f002";
+    font-weight: 900;
+}
+.btn-3 {
+	background: #E8DBB5;
+	color: #fff;
+}
+.btn-3:hover {
+	background: #DFD0A5;
+}
+
+.btn-3:active {
+	background: #D1BD83;
+	top: 2px;
+}
+
+.btn-3:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3;
+	font-size: 120%;
+	width: 50px;
+}
+.btn-3a {
+	padding: 15px 30px 15px 80px;
+}
+
+.btn-3a:before {
+	background: #D1C08F;
+}
+
+
+.sendbtn {
+	 display: inline-block;
+	 background-color: #E8DBB5;
+	 border: none;
+	 color: #FFFFFF;
+	 text-align: center;
+	 font-size: 15px;
+	 padding: 10px;
+	 width: 120px;
+	 transition: all 0.5s;
+	 cursor: pointer;
+	 margin: 5px;
+	 margin-left: 35%;
+	 margin-top: 10px;
+}
+.sendbtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: white;
+    font-weight: 600;
+	background-color: #E8DBB5;
+}
+
+.sendbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  background-color: #E8DBB5;
+}
+
+.sendbtn:hover span {
+  padding-right: 25px;
+}
+
+.sendbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 /* -------------------------------------- */
 /* flexbox code for Product page */
 .section-layout{
