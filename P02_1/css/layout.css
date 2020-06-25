@@ -15,7 +15,7 @@ fieldset, label {
 	box-sizing: border-box;
 }
 body{
-    background-color: #ffffe6;
+    background-color: #ffffe6; 
 }
 pre{
 	tab-size:2;
@@ -69,7 +69,8 @@ div{
 	text-align: center;
 
 	flex-shrink: 0;
-	margin-top: auto;
+	margin-top: 10rem;
+    height:5rem;
 }
 .div_coantainer_color{
 	background-color: rgb(219, 222, 191);
@@ -110,6 +111,7 @@ div{
 }
 .main_manu_box{
 	width:25%;
+    background-color: white;
 }
 .main_box_img1{
 	padding-top: 4rem;
@@ -653,8 +655,6 @@ Code studied from the IAT 339 Flexbox Tutorial
 /*  Code for the review button */
 
 .review_container{
-    display:block;
-    white-space: pre-wrap;
 }
 
 /* -------------------------------------- */
