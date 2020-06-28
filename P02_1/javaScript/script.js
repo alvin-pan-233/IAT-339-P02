@@ -1,5 +1,11 @@
 /* JavaScript file */
+'use strict';
 
+console.log('Javascript is running');
+
+
+
+/* Function for the front page slide shoe */
 function slideshow() {
   // clone
   $('.slider-1').clone().removeClass('slider-1').addClass('slider-2').insertAfter($('.slider'));
