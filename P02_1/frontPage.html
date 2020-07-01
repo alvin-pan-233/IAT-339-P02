@@ -23,11 +23,95 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 	<!-- CSS  links -->
+	<link rel="stylesheet" href="css/slick.css"> 
 	<link rel="stylesheet" href="css/layout.css"> 
 	<link rel="stylesheet" href="css/normalize.css"> 
 </head>
 
 <body>
+
+	<!-- 
+	!-- SlideShow section Sample 2--
+	<section>
+		<div class="slide_container">
+		  
+		  <div data-am-gallery>
+
+		    !-- Radio --
+		    <input type="radio" name="gallery" id="img-1" checked />
+		    <input type="radio" name="gallery" id="img-2" />
+		    <input type="radio" name="gallery" id="img-3" />
+
+		    !-- Images --
+		    <div class="slide_images">
+		      <div class="slide_image" style="background-image: url(img/hotSales2.jpg);"></div>
+		      <div class="slide_image" style="background-image: url(2.jpg);"></div>
+		      <div class="slide_image" style="background-image: url(3.jpg);"></div>
+		    </div>
+
+		    !-- Navigation --
+		    <div class="slide_navigation">
+		      <label class="slide_dot" for="img-1"></label>
+		      <label class="slide_dot" for="img-2"></label>
+		      <label class="slide_dot" for="img-3"></label>
+		    </div>
+
+		  </div>
+		  
+		</div>
+	</section>   -- End of the slideshow section --
+	-->
+
+	<!-- Slideshow Image Sample 2 -->
+	<!-- Code studied from "https://www.youtube.com/watch?v=uz7jiJTOHEs" -->
+	<nav>
+		<div class="logo">	
+			<img src="img/bubbleorzo logo.png" alt="Brand design / Logo">
+		</div>
+
+		<div class="menu">
+			<ul>
+				<li><a href="frontPage.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="storeInfo.html">StoreInfo</a></li>
+				<li><a href="aboutUs.html">About US</a></li>
+				<li><a href="contact.html">Contact US</a></li>
+				<li><a href="index.html">StyleGuide</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<header>
+		<div class="banner-area">
+			<div class="single-banner">
+				<div class="banner-img">
+					<img src="img/hotSales2.jpg" alt="">
+				</div>
+
+				<div class="banner-text">
+					<h2>Check Out Our Summer Specials</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- This Jquery code if studied from 
+		"https://www.youtube.com/watch?v=uz7jiJTOHEs"
+	-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="javaScript/slick.min.js"></script>
+	<script>
+		$('.banner-area').slick({
+			autoplay: true,
+			speed: 800,
+			arrows: false,
+			dots: true,
+			fade: true
+		});
+	</script>
+
+	<!--
 	<header>
 		<div class="topNav body_Style">
 			<nav>
@@ -37,18 +121,21 @@
 				<a href="aboutUs.html">About US</a>
 				<a href="contact.html">Contact US</a>
 				<a href="index.html">StyleGuide</a>
-			</nav>  <!-- nav for the tag links -->
+			</nav>  -- nav for the tag links --
 		</div>
 	</header>
 
-	<section>  <!-- section for the logo and its background bar -->
-		<nav class="logo_bar">  <!-- Put the brand image here -->
+	<section>  -- section for the logo and its background bar --
+		<nav class="logo_bar">  <!-- Put the brand image here --
 			<img class="logo_styling frameworkSize" src="img/bubbleorzo logo.png" alt="Brand design / Logo">
 		</nav>
 	</section>
+	-->
 
 	<!-- The body sections except Top Navigation bar & the Footer -->
 	<section class="body_Style">
+
+		<!-- SlideShow Image 1 
 		<section class="slideshow">
 			<div class="slider slider-1">
 				<div class="slider_item">
