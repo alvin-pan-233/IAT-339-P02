@@ -860,7 +860,12 @@ Arrows
 }
 .icon-cart:before {
 	font-family: 'Font Awesome 5 Free';
-	content: "\f07a";
+	content: "\f217";
+    font-weight: 900;
+}
+.icon-checkout:before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f218";
     font-weight: 900;
 }
 .icon-search:before {
