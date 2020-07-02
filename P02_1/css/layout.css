@@ -121,6 +121,12 @@ div{
 	margin-top: 10rem;
     height:5rem;
 }
+.bottomNav_p{
+    padding-top: 10px;
+}
+footer p{
+    margin-top: 5px;
+}
 
 /* Slideshow image css */
 /* from "https://www.cssscript.com/pure-html-css-fullscreen-slideshow/" */
@@ -1163,9 +1169,26 @@ span.pay_price {
 	opacity: 90%;
 }
 
+/* Cart Icon firetrigger */
+#cd-cart {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100%;
 
+  /* header height */
+  padding-top: 50px;
 
->>>>>>> 48c69c93185c8580006756986bc536aab66200c8
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  transition: right 0.3s;
+}
+
+#cd-cart.speed-in {
+  right: 0;
+}
+
 /* -------------------------------------- */
 @media(max-width: 30em){
 	.container-box{

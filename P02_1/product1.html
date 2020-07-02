@@ -21,13 +21,12 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-	<!-- Icon  links -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<script src="javaScript/script.js"></script>
 
 	<!-- CSS  links -->
-	<link rel="stylesheet" href="css/normalize.css"> 		
+	<link rel="stylesheet" href="css/slick.css"> 
 	<link rel="stylesheet" href="css/layout.css"> 
+	<link rel="stylesheet" href="css/normalize.css"> 
 </head>
 
 <body>
@@ -47,9 +46,9 @@
 					<li><a href="index.html">StyleGuide</a></li>
 				</ul>
 			</div>
+
 		</nav>
 	</header>
-
 
 	<!-- The body sections except Top Navigation bar & the Footer -->
 	<section class="body_Style">
@@ -171,6 +170,39 @@
 		</section>  <!-- End of the Customer Review -->
 	</section> <!-- End of The body sections -->
 
+	<div id="cd-shadow-layer"></div>
+
+	<div id="cd-cart">
+			<h2>Cart</h2>
+			<ul class="cd-cart-items">
+				<li>
+					<span class="cd-qty">1x</span> Product Name
+					<div class="cd-price">$9.99</div>
+					<a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+				</li>
+
+				<li>
+					<span class="cd-qty">2x</span> Product Name
+					<div class="cd-price">$19.98</div>
+					<a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+				</li>
+
+				<li>
+					<span class="cd-qty">1x</span> Product Name
+					<div class="cd-price">$9.99</div>
+					<a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+				</li>
+			</ul> <!-- cd-cart-items -->
+
+			<div class="cd-cart-total">
+				<p>Total <span>$39.96</span></p>
+			</div> <!-- cd-cart-total -->
+
+			<a href="#0" class="checkout-btn">Checkout</a>
+			
+			<p class="cd-go-to-cart"><a href="#0">Go to cart page</a></p>
+		</div> <!-- cd-cart -->
+
 	<!-- this back to top button code is from w3c school -->
 	<!-- "https://www.w3schools.com/howto/howto_js_scroll_to_top.asp" -->
 	<section>
@@ -197,11 +229,12 @@
 		</section>
 
 	<!-- Footer Section -->
-	<section> 
+	<Footer> 
 		<div class="bottomNav">
+			<p class="bottomNav_p">Bubbleorze</p>
 			<p>@2020 Copyright</p>
 		</div>
-	</section>
+	</Footer>
 </body>
 
 </html>

@@ -41,3 +41,13 @@ $(function() {
   }, 1000);
 })
 
+function move_navigation( $navigation, $MQ) {
+   if ( $(window).width() >= $MQ ) {
+      $navigation.detach();
+      $navigation.appendTo('header');
+   } else {
+      $navigation.detach();
+      $navigation.insertAfter('header');
+   }
+}
+
