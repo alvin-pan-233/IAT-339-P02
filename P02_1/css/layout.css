@@ -8,7 +8,8 @@ Code studied from the IAT 339 Flexbox Tutorial
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 
 fieldset, label { 
-    margin: 0; padding: 0; 
+    margin: 0; 
+    padding: 0; 
 }
 
 *, *::after, *::before{
@@ -16,12 +17,11 @@ fieldset, label {
 }
 body{
     margin:0;
-    padding:0;
     background-color: #ffffe6; 
     color: #705a1c;
 }
 nav{
-    width:1170px;
+    width:auto;
     margin:auto;
     height: 60px;
     position: fixed;
@@ -38,11 +38,17 @@ button{
 	font:inherit;
 	margin:0;
 }
-header{
-    background-color: #F06060;
+header nav{
+    padding:0 10%;
+    background-color: rgba(201, 76, 76, 0.3);
 }
-header,a{
+header,a, li{
     color:white;
+    margin-top: 0;
+}
+header ul{
+    margin-top: 0;
+
 }
 header::after{
 	content:'';
@@ -54,7 +60,7 @@ div{
 }
 
 .body_Style{
-    margin:0 10%;
+    margin:10% 10% 0 10%;
 }
 .map_responsive{
 	overflow: hidden;
@@ -86,7 +92,7 @@ div{
 .menu ul li a{
     display: inline-block;
     text-decoration: none;
-    color:red;
+    color:#fff;
     padding:15px;
 }
 .topNav{
@@ -97,7 +103,6 @@ div{
 	text-decoration: none;
 	font-size: 1.2rem;
 	font-family: "Raleway",sans-serif;
-	padding-top: 2rem;
     background-color: #F06060;
     z-index: 0;
 }
@@ -539,7 +544,7 @@ Code studied from the IAT 339 Flexbox Tutorial
 
 /* Styling the logo */
 .logo img{
-    max-width:5rem;
+    max-width:3rem;
     width: 15%;
     display: block;
     float:left;
@@ -780,11 +785,9 @@ Arrows
 	font-size:0.8rem;
 }
 .style_text{
-	text-decoration: underline;
 	padding-top: 0.1rem;
 }
 .style_text_store{
-	text-decoration: underline;
 	margin-top: 2rem;
 	padding-top: 0.1rem;
 }
