@@ -918,6 +918,13 @@ Arrows
 	background: #D1C08F;
 }
 
+.customer_name:before{
+  font-family: 'Font Awesome 5 Free';
+  content: "\f007";
+  font-weight: 600;
+  padding-right: 10px;
+}
+
 
 .sendbtn {
 	 display: inline-block;
